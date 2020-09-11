@@ -5,10 +5,13 @@
 書本提供的程式檔案與資料集:
 https://github.com/PacktPublishing/Feature-Engineering-Made-Easy
 
-### 1. Feature Understanding
+1.Feature Understanding
+==
+
 藉由pandas理解資料內容與實作描述性統計。matplotlib則是將數據資料做圖形化觀察。依照資料的四種尺度做描述性統計與各式圖表繪製。
 
-### 2. Feature Improvement
+2.Feature Improvement
+==
 __-探索式資料分析__: 描述性統計、直方圖繪製、null accuracy(隨便猜時的正確率)與相關分析。
 
 __-metric遺漏值__: 遺漏值觀察、遺漏值轉換、遺漏值處理(刪除法、平均值填補或中位數填補)。填補方法可以手動填補，也透過scikit-learn的impute方法填補。再搭配機器學習分類模型觀察填補前後之成效差異。
@@ -17,7 +20,9 @@ __-機器學習管線(Pipeline)__: 建立scikit-learn的Pipeline，讓資料依�
 
 __-標準化與常態化__: 透過標準化與常態化將數據尺度不一的資料做轉換，在同樣的比例下比較，不因數值的大小有所差異。包含Z-score方法、最大最小縮放與列常態化。皆使用scikit-learn preprocessing套件。
 
-### 3. Feature Constuction
+
+3.Feature Constuction
+==
 __-nonmetric遺漏值__: 以出現次數最多的數值填補。
 
 __-自定Pipeline的方法__: 透過繼承scikit-learn的TransformerMixin物件，就可以建立想要針對數據的處理方法。
