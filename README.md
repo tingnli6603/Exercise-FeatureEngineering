@@ -9,14 +9,13 @@ https://github.com/PacktPublishing/Feature-Engineering-Made-Easy
 藉由pandas理解資料內容與實作描述性統計。matplotlib則是將數據資料做圖形化觀察。依照資料的四種尺度做描述性統計與各式圖表繪製。
 
 ### 2. Feature Improvement
-#### 探索式資料分析
-描述性統計、直方圖繪製、null accuracy(隨便猜時的正確率)與相關分析。
-#### 遺漏值
-遺漏值觀察、遺漏值轉換、遺漏值處理(刪除法、平均值填補或中位數填補)。填補方法可以手動填補，也透過scikit-learn的impute方法填補。再搭配機器學習分類模型觀察填補前後之成效差異。
-#### 機器學習管線(Pipeline)
-建立scikit-learn的Pipeline，讓資料依照我們設定的管線做處理及完成任務，並利用scikit-learn的GridSearch方法找尋最佳參數模型。
-#### 標準化與常態化
-透過標準化與常態化將數據尺度不一的資料做轉換，在同樣的比例下比較，不因數值的大小有所差異。包含Z-score方法、最大最小縮放與列常態化。皆使用scikit-learn preprocessing套件。
+__-探索式資料分析__: 描述性統計、直方圖繪製、null accuracy(隨便猜時的正確率)與相關分析。
+
+__-遺漏值__: 遺漏值觀察、遺漏值轉換、遺漏值處理(刪除法、平均值填補或中位數填補)。填補方法可以手動填補，也透過scikit-learn的impute方法填補。再搭配機器學習分類模型觀察填補前後之成效差異。
+
+__-機器學習管線(Pipeline)__: 建立scikit-learn的Pipeline，讓資料依照我們設定的管線做處理及完成任務，並利用scikit-learn的GridSearch方法找尋最佳參數模型。
+
+__-標準化與常態化__: 透過標準化與常態化將數據尺度不一的資料做轉換，在同樣的比例下比較，不因數值的大小有所差異。包含Z-score方法、最大最小縮放與列常態化。皆使用scikit-learn preprocessing套件。
 
 ### 3. Feature Constuction
 #### 多項式特徵
