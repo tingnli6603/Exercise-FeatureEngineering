@@ -5,6 +5,8 @@
 書本提供的程式檔案與資料集:
 https://github.com/PacktPublishing/Feature-Engineering-Made-Easy
 
+__pima_predict.ipynb__ 實作一套資料分析流程，從探索式資料分析、遺漏值填補、分類模型選擇、特徵選取到特徵轉換，並比較不同方法之間的好壞。
+
 1.Feature Understanding
 ==
 __-描述性統計__: 藉由pandas理解資料內容與實作描述性統計。
